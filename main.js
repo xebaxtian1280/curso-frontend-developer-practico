@@ -7,7 +7,7 @@ const mobileMenuIcon = document.querySelector(".menu");
 const mobileMenu = document.querySelector(".mobile-menu");
 
 const iconShoppingMenu = document.querySelector(".navbar-shopping-cart");
-const shoppingMenu = document.querySelector(".product-detail");
+const shoppingMenu = document.getElementById("productCardContainer");
 const cardsContainer = document.querySelector(".cards-container");
 
 menuEmail.addEventListener("click", toggleDesktopMenu);
